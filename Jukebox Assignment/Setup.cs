@@ -10,13 +10,11 @@ using System.Windows.Forms;
 
 namespace Jukebox_Assignment
 {
-    public partial class Form1 : Form
+    public partial class Setup : Form
     {
-        public Form1()
+        public Setup()
         {
             InitializeComponent();
         }
-
-        
     }
 }

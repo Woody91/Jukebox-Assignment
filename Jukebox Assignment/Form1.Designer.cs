@@ -34,7 +34,13 @@
             this.PlaylistListBox = new System.Windows.Forms.ListBox();
             this.PlayNowTextBox = new System.Windows.Forms.TextBox();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.MainMenu = new System.Windows.Forms.MenuStrip();
+            this.setupToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eventLog1 = new System.Diagnostics.EventLog();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            this.MainMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.SuspendLayout();
             // 
             // GenreTitleBox
@@ -78,6 +84,36 @@
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(241, 46);
             this.axWindowsMediaPlayer1.TabIndex = 4;
             // 
+            // MainMenu
+            // 
+            this.MainMenu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.MainMenu.Dock = System.Windows.Forms.DockStyle.None;
+            this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.setupToolStripMenuItem,
+            this.aboutToolStripMenuItem});
+            this.MainMenu.Location = new System.Drawing.Point(9, 687);
+            this.MainMenu.Name = "MainMenu";
+            this.MainMenu.Padding = new System.Windows.Forms.Padding(6, 2, 0, 0);
+            this.MainMenu.Size = new System.Drawing.Size(109, 24);
+            this.MainMenu.TabIndex = 5;
+            this.MainMenu.Text = "menuStrip1";
+            // 
+            // setupToolStripMenuItem
+            // 
+            this.setupToolStripMenuItem.Name = "setupToolStripMenuItem";
+            this.setupToolStripMenuItem.Size = new System.Drawing.Size(49, 22);
+            this.setupToolStripMenuItem.Text = "Setup";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(52, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // eventLog1
+            // 
+            this.eventLog1.SynchronizingObject = this;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -90,11 +126,15 @@
             this.Controls.Add(this.PlaylistListBox);
             this.Controls.Add(this.GenreListBox);
             this.Controls.Add(this.GenreTitleBox);
+            this.Controls.Add(this.MainMenu);
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            this.MainMenu.ResumeLayout(false);
+            this.MainMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -107,6 +147,10 @@
         private System.Windows.Forms.ListBox PlaylistListBox;
         private System.Windows.Forms.TextBox PlayNowTextBox;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
+        private System.Windows.Forms.MenuStrip MainMenu;
+        private System.Windows.Forms.ToolStripMenuItem setupToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Diagnostics.EventLog eventLog1;
     }
 }
 
