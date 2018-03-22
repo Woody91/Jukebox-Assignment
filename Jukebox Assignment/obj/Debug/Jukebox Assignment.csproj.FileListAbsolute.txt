@@ -1,0 +1,17 @@
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.exe.config
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.exe
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.pdb
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Interop.WMPLib.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\bin\Debug\AxInterop.WMPLib.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csprojResolveAssemblyReference.cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Interop.WMPLib.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\AxInterop.WMPLib.dll
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.ResolveComReference.cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.About.resources
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Form1.resources
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Properties.Resources.resources
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Setup.resources
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.GenerateResource.Cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.CoreCompileInputs.cache
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.exe
+\\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.pdb
