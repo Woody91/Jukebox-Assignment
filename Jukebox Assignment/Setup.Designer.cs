@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             this.eventLog1 = new System.Diagnostics.EventLog();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.TrackImpBox = new System.Windows.Forms.ListBox();
+            this.PresGenTrackBox = new System.Windows.Forms.ListBox();
+            this.ImpTraDirBut = new System.Windows.Forms.Button();
+            this.ClrImpTraBut = new System.Windows.Forms.Button();
+            this.CopTrackBut = new System.Windows.Forms.Button();
+            this.MoveTrackBut = new System.Windows.Forms.Button();
+            this.DelTrackGenBut = new System.Windows.Forms.Button();
+            this.AddBut = new System.Windows.Forms.Button();
+            this.DelBut = new System.Windows.Forms.Button();
+            this.PrevBut = new System.Windows.Forms.Button();
+            this.NextBut = new System.Windows.Forms.Button();
+            this.OkBut = new System.Windows.Forms.Button();
+            this.CancelBut = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -55,120 +55,120 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
-            // listBox1
+            // TrackImpBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(18, 25);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(200, 199);
-            this.listBox1.TabIndex = 0;
+            this.TrackImpBox.FormattingEnabled = true;
+            this.TrackImpBox.Location = new System.Drawing.Point(18, 25);
+            this.TrackImpBox.Name = "TrackImpBox";
+            this.TrackImpBox.Size = new System.Drawing.Size(200, 199);
+            this.TrackImpBox.TabIndex = 0;
             // 
-            // listBox2
+            // PresGenTrackBox
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(14, 69);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(219, 160);
-            this.listBox2.TabIndex = 1;
+            this.PresGenTrackBox.FormattingEnabled = true;
+            this.PresGenTrackBox.Location = new System.Drawing.Point(14, 69);
+            this.PresGenTrackBox.Name = "PresGenTrackBox";
+            this.PresGenTrackBox.Size = new System.Drawing.Size(219, 160);
+            this.PresGenTrackBox.TabIndex = 1;
             // 
-            // button1
+            // ImpTraDirBut
             // 
-            this.button1.Location = new System.Drawing.Point(18, 230);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 31);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ImpTraDirBut.Location = new System.Drawing.Point(18, 230);
+            this.ImpTraDirBut.Name = "ImpTraDirBut";
+            this.ImpTraDirBut.Size = new System.Drawing.Size(200, 31);
+            this.ImpTraDirBut.TabIndex = 2;
+            this.ImpTraDirBut.Text = "Import Tracks From Directory";
+            this.ImpTraDirBut.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // ClrImpTraBut
             // 
-            this.button2.Location = new System.Drawing.Point(18, 267);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 30);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.ClrImpTraBut.Location = new System.Drawing.Point(18, 267);
+            this.ClrImpTraBut.Name = "ClrImpTraBut";
+            this.ClrImpTraBut.Size = new System.Drawing.Size(200, 30);
+            this.ClrImpTraBut.TabIndex = 3;
+            this.ClrImpTraBut.Text = "Clear Imported Tracks";
+            this.ClrImpTraBut.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // CopTrackBut
             // 
-            this.button3.Location = new System.Drawing.Point(252, 87);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.CopTrackBut.Location = new System.Drawing.Point(252, 87);
+            this.CopTrackBut.Name = "CopTrackBut";
+            this.CopTrackBut.Size = new System.Drawing.Size(105, 23);
+            this.CopTrackBut.TabIndex = 4;
+            this.CopTrackBut.Text = "Copy Track >>";
+            this.CopTrackBut.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // MoveTrackBut
             // 
-            this.button4.Location = new System.Drawing.Point(252, 116);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.MoveTrackBut.Location = new System.Drawing.Point(251, 116);
+            this.MoveTrackBut.Name = "MoveTrackBut";
+            this.MoveTrackBut.Size = new System.Drawing.Size(105, 23);
+            this.MoveTrackBut.TabIndex = 5;
+            this.MoveTrackBut.Text = "Move Track >>";
+            this.MoveTrackBut.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // DelTrackGenBut
             // 
-            this.button5.Location = new System.Drawing.Point(252, 235);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.DelTrackGenBut.Location = new System.Drawing.Point(266, 188);
+            this.DelTrackGenBut.Name = "DelTrackGenBut";
+            this.DelTrackGenBut.Size = new System.Drawing.Size(75, 70);
+            this.DelTrackGenBut.TabIndex = 6;
+            this.DelTrackGenBut.Text = "Delete Track From Genre";
+            this.DelTrackGenBut.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // AddBut
             // 
-            this.button6.Location = new System.Drawing.Point(94, 234);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.AddBut.Location = new System.Drawing.Point(94, 234);
+            this.AddBut.Name = "AddBut";
+            this.AddBut.Size = new System.Drawing.Size(75, 23);
+            this.AddBut.TabIndex = 8;
+            this.AddBut.Text = "Add";
+            this.AddBut.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // DelBut
             // 
-            this.button7.Location = new System.Drawing.Point(94, 263);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.DelBut.Location = new System.Drawing.Point(94, 263);
+            this.DelBut.Name = "DelBut";
+            this.DelBut.Size = new System.Drawing.Size(75, 23);
+            this.DelBut.TabIndex = 9;
+            this.DelBut.Text = "Delete";
+            this.DelBut.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // PrevBut
             // 
-            this.button8.Location = new System.Drawing.Point(14, 250);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.PrevBut.Location = new System.Drawing.Point(14, 250);
+            this.PrevBut.Name = "PrevBut";
+            this.PrevBut.Size = new System.Drawing.Size(75, 23);
+            this.PrevBut.TabIndex = 10;
+            this.PrevBut.Text = "<< Previous";
+            this.PrevBut.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // NextBut
             // 
-            this.button9.Location = new System.Drawing.Point(175, 250);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(75, 23);
-            this.button9.TabIndex = 11;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.NextBut.Location = new System.Drawing.Point(175, 250);
+            this.NextBut.Name = "NextBut";
+            this.NextBut.Size = new System.Drawing.Size(75, 23);
+            this.NextBut.TabIndex = 11;
+            this.NextBut.Text = "Next >>";
+            this.NextBut.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // OkBut
             // 
-            this.button10.Location = new System.Drawing.Point(427, 362);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(75, 23);
-            this.button10.TabIndex = 12;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
+            this.OkBut.Location = new System.Drawing.Point(456, 375);
+            this.OkBut.Name = "OkBut";
+            this.OkBut.Size = new System.Drawing.Size(75, 23);
+            this.OkBut.TabIndex = 12;
+            this.OkBut.Text = "OK";
+            this.OkBut.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // CancelBut
             // 
-            this.button11.Location = new System.Drawing.Point(508, 362);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
-            this.button11.TabIndex = 13;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
+            this.CancelBut.Location = new System.Drawing.Point(537, 375);
+            this.CancelBut.Name = "CancelBut";
+            this.CancelBut.Size = new System.Drawing.Size(75, 23);
+            this.CancelBut.TabIndex = 13;
+            this.CancelBut.Text = "Cancel";
+            this.CancelBut.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -179,53 +179,53 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.listBox1);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.TrackImpBox);
+            this.groupBox1.Controls.Add(this.ImpTraDirBut);
+            this.groupBox1.Controls.Add(this.ClrImpTraBut);
             this.groupBox1.Location = new System.Drawing.Point(12, 34);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(234, 309);
+            this.groupBox1.Size = new System.Drawing.Size(233, 309);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Text = "Import Tracks";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.listBox2);
-            this.groupBox2.Controls.Add(this.button6);
-            this.groupBox2.Controls.Add(this.button7);
-            this.groupBox2.Controls.Add(this.button8);
-            this.groupBox2.Controls.Add(this.button9);
-            this.groupBox2.Location = new System.Drawing.Point(333, 34);
+            this.groupBox2.Controls.Add(this.PresGenTrackBox);
+            this.groupBox2.Controls.Add(this.AddBut);
+            this.groupBox2.Controls.Add(this.DelBut);
+            this.groupBox2.Controls.Add(this.PrevBut);
+            this.groupBox2.Controls.Add(this.NextBut);
+            this.groupBox2.Location = new System.Drawing.Point(362, 34);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(256, 297);
             this.groupBox2.TabIndex = 16;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Present Genre";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(14, 20);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.Size = new System.Drawing.Size(59, 13);
             this.label1.TabIndex = 15;
-            this.label1.Text = "label1";
+            this.label1.Text = "Genre Title";
             // 
             // Setup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(609, 396);
+            this.ClientSize = new System.Drawing.Size(628, 410);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button11);
-            this.Controls.Add(this.button10);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.CancelBut);
+            this.Controls.Add(this.OkBut);
+            this.Controls.Add(this.DelTrackGenBut);
+            this.Controls.Add(this.MoveTrackBut);
+            this.Controls.Add(this.CopTrackBut);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Setup";
@@ -245,19 +245,19 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.ListBox PresGenTrackBox;
+        private System.Windows.Forms.Button AddBut;
+        private System.Windows.Forms.Button DelBut;
+        private System.Windows.Forms.Button PrevBut;
+        private System.Windows.Forms.Button NextBut;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ListBox TrackImpBox;
+        private System.Windows.Forms.Button ImpTraDirBut;
+        private System.Windows.Forms.Button ClrImpTraBut;
+        private System.Windows.Forms.Button CancelBut;
+        private System.Windows.Forms.Button OkBut;
+        private System.Windows.Forms.Button DelTrackGenBut;
+        private System.Windows.Forms.Button MoveTrackBut;
+        private System.Windows.Forms.Button CopTrackBut;
     }
 }

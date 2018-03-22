@@ -45,7 +45,7 @@
             // 
             // GenreTitleBox
             // 
-            this.GenreTitleBox.Location = new System.Drawing.Point(331, 213);
+            this.GenreTitleBox.Location = new System.Drawing.Point(272, 214);
             this.GenreTitleBox.Name = "GenreTitleBox";
             this.GenreTitleBox.Size = new System.Drawing.Size(100, 20);
             this.GenreTitleBox.TabIndex = 0;
@@ -54,7 +54,7 @@
             // 
             this.GenreListBox.FormattingEnabled = true;
             this.GenreListBox.HorizontalScrollbar = true;
-            this.GenreListBox.Location = new System.Drawing.Point(312, 240);
+            this.GenreListBox.Location = new System.Drawing.Point(251, 240);
             this.GenreListBox.Name = "GenreListBox";
             this.GenreListBox.ScrollAlwaysVisible = true;
             this.GenreListBox.Size = new System.Drawing.Size(138, 95);
@@ -63,14 +63,14 @@
             // PlaylistListBox
             // 
             this.PlaylistListBox.FormattingEnabled = true;
-            this.PlaylistListBox.Location = new System.Drawing.Point(312, 386);
+            this.PlaylistListBox.Location = new System.Drawing.Point(251, 367);
             this.PlaylistListBox.Name = "PlaylistListBox";
-            this.PlaylistListBox.Size = new System.Drawing.Size(138, 134);
+            this.PlaylistListBox.Size = new System.Drawing.Size(138, 108);
             this.PlaylistListBox.TabIndex = 2;
             // 
             // PlayNowTextBox
             // 
-            this.PlayNowTextBox.Location = new System.Drawing.Point(312, 342);
+            this.PlayNowTextBox.Location = new System.Drawing.Point(251, 341);
             this.PlayNowTextBox.Name = "PlayNowTextBox";
             this.PlayNowTextBox.Size = new System.Drawing.Size(138, 20);
             this.PlayNowTextBox.TabIndex = 3;
@@ -78,7 +78,7 @@
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(261, 152);
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(204, 162);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(241, 46);
@@ -91,7 +91,7 @@
             this.MainMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.setupToolStripMenuItem,
             this.aboutToolStripMenuItem});
-            this.MainMenu.Location = new System.Drawing.Point(9, 687);
+            this.MainMenu.Location = new System.Drawing.Point(9, 569);
             this.MainMenu.Name = "MainMenu";
             this.MainMenu.Padding = new System.Windows.Forms.Padding(6, 2, 0, 0);
             this.MainMenu.Size = new System.Drawing.Size(109, 24);
@@ -120,7 +120,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(762, 720);
+            this.ClientSize = new System.Drawing.Size(645, 602);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.PlayNowTextBox);
             this.Controls.Add(this.PlaylistListBox);
