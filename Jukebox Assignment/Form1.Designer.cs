@@ -39,6 +39,7 @@
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eventLog1 = new System.Diagnostics.EventLog();
             this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.MainMenu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
@@ -124,6 +125,15 @@
             this.hScrollBar1.Size = new System.Drawing.Size(80, 17);
             this.hScrollBar1.TabIndex = 6;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(456, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(177, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Copyright 2018, Mr Adam Woodliffe.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -131,6 +141,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(645, 602);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.PlayNowTextBox);
@@ -164,6 +175,7 @@
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Diagnostics.EventLog eventLog1;
         private System.Windows.Forms.HScrollBar hScrollBar1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
