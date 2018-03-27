@@ -169,6 +169,7 @@
             this.CancelBut.TabIndex = 13;
             this.CancelBut.Text = "Cancel";
             this.CancelBut.UseVisualStyleBackColor = true;
+            this.CancelBut.Click += new System.EventHandler(this.CancelBut_Click);
             // 
             // textBox1
             // 

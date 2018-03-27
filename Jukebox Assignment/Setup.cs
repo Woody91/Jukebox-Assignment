@@ -16,5 +16,10 @@ namespace Jukebox_Assignment
         {
             InitializeComponent();
         }
+
+        private void CancelBut_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
