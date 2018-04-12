@@ -82,6 +82,27 @@ namespace Jukebox_Assignment
             display_genres(hScrollBar1.Value);
 
         }
+
+        private void GenreListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Selecttrack(object sender, EventArgs e)
+        {
+            if (GenreListBox.SelectedIndex > -1)
+                
+
+            PlaylistListBox.Items.Add(GenreListBox.Text);
+        }
+
+        private void PlaylistListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (GenreListBox.SelectedIndex > -1)
+                PlaylistListBox.Items.RemoveAt(PlaylistListBox.SelectedIndex);
+
+            PlaylistListBox.Items.Add(GenreListBox.Text);
+        }
     }
     
 }

@@ -60,6 +60,8 @@
             this.GenreListBox.ScrollAlwaysVisible = true;
             this.GenreListBox.Size = new System.Drawing.Size(138, 82);
             this.GenreListBox.TabIndex = 1;
+            this.GenreListBox.SelectedIndexChanged += new System.EventHandler(this.GenreListBox_SelectedIndexChanged);
+            this.GenreListBox.DoubleClick += new System.EventHandler(this.Selecttrack);
             // 
             // PlaylistListBox
             // 
@@ -68,6 +70,7 @@
             this.PlaylistListBox.Name = "PlaylistListBox";
             this.PlaylistListBox.Size = new System.Drawing.Size(138, 108);
             this.PlaylistListBox.TabIndex = 2;
+            this.PlaylistListBox.SelectedIndexChanged += new System.EventHandler(this.PlaylistListBox_SelectedIndexChanged);
             // 
             // PlayNowTextBox
             // 
