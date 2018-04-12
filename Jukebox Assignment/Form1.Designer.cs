@@ -47,19 +47,18 @@
             // 
             // GenreTitleBox
             // 
-            this.GenreTitleBox.Location = new System.Drawing.Point(272, 214);
+            this.GenreTitleBox.Location = new System.Drawing.Point(251, 214);
             this.GenreTitleBox.Name = "GenreTitleBox";
-            this.GenreTitleBox.Size = new System.Drawing.Size(100, 20);
+            this.GenreTitleBox.Size = new System.Drawing.Size(138, 20);
             this.GenreTitleBox.TabIndex = 0;
             // 
             // GenreListBox
             // 
             this.GenreListBox.FormattingEnabled = true;
-            this.GenreListBox.HorizontalScrollbar = true;
             this.GenreListBox.Location = new System.Drawing.Point(251, 240);
             this.GenreListBox.Name = "GenreListBox";
             this.GenreListBox.ScrollAlwaysVisible = true;
-            this.GenreListBox.Size = new System.Drawing.Size(138, 95);
+            this.GenreListBox.Size = new System.Drawing.Size(138, 82);
             this.GenreListBox.TabIndex = 1;
             // 
             // PlaylistListBox
@@ -120,10 +119,12 @@
             // 
             // hScrollBar1
             // 
-            this.hScrollBar1.Location = new System.Drawing.Point(392, 318);
+            this.hScrollBar1.LargeChange = 1;
+            this.hScrollBar1.Location = new System.Drawing.Point(251, 321);
             this.hScrollBar1.Name = "hScrollBar1";
-            this.hScrollBar1.Size = new System.Drawing.Size(80, 17);
+            this.hScrollBar1.Size = new System.Drawing.Size(138, 17);
             this.hScrollBar1.TabIndex = 6;
+            this.hScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar1_Scroll);
             // 
             // label1
             // 
