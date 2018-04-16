@@ -21,5 +21,10 @@ namespace Jukebox_Assignment
         {
             Close();
         }
+
+        private void OkBut_Click(object sender, EventArgs e)
+        {
+                Close();   
+        }
     }
 }

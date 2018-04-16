@@ -92,7 +92,8 @@ namespace Jukebox_Assignment
         {
             if (GenreListBox.SelectedIndex > -1)  // Selects items within GenreListBox above 0.
 
-            PlaylistListBox.Items.Add(GenreListBox.Text);
+                PlaylistListBox.Items.Add(GenreListBox.Text);
+
         }
 
         private void PlaylistListBox_SelectedIndexChanged(object sender, EventArgs e)

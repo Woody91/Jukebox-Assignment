@@ -160,6 +160,7 @@
             this.OkBut.TabIndex = 12;
             this.OkBut.Text = "OK";
             this.OkBut.UseVisualStyleBackColor = true;
+            this.OkBut.Click += new System.EventHandler(this.OkBut_Click);
             // 
             // CancelBut
             // 
