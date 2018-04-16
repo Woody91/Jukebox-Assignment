@@ -85,23 +85,19 @@ namespace Jukebox_Assignment
 
         private void GenreListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            // Unused object. See Selecttrack below.
         }
 
         private void Selecttrack(object sender, EventArgs e)
         {
-            if (GenreListBox.SelectedIndex > -1)
-                
+            if (GenreListBox.SelectedIndex > -1)  // Selects items within GenreListBox above 0.
 
             PlaylistListBox.Items.Add(GenreListBox.Text);
         }
 
         private void PlaylistListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (GenreListBox.SelectedIndex > -1)
-                PlaylistListBox.Items.RemoveAt(PlaylistListBox.SelectedIndex);
 
-            PlaylistListBox.Items.Add(GenreListBox.Text);
         }
     }
     
