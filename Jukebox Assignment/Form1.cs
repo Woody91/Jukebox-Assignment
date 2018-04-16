@@ -47,18 +47,18 @@ namespace Jukebox_Assignment
 
             num_gen = Convert.ToInt32(myInputStream.ReadLine());  //this reads the number "3" from the text file and then converts it into an interger.  
             hScrollBar1.Maximum = num_gen - 1;
-            Genre = new ListBox[num_gen];  //Creates a new list box
+            Genre = new ListBox[num_gen];       // Creates a new list box
 
-            for (int g = 0; g < num_gen; g++)   //
+            for (int g = 0; g < num_gen; g++)   // This Selects "g" Between 0 and above (++)
 
             {
                 Genre[g] = new ListBox();
-                num_track = Convert.ToInt32(myInputStream.ReadLine());
+                num_track = Convert.ToInt32(myInputStream.ReadLine()); // this converts to an integer 
                 Genre[g].Items.Add(myInputStream.ReadLine());
 
                 for (int t = 0; t < num_track; t++)
                 {
-                    Genre[g].Items.Add(myInputStream.ReadLine());
+                    Genre[g].Items.Add(myInputStream.ReadLine()); // Takes the items from textfile and adds to Genre
                 }
             }
 
@@ -73,13 +73,13 @@ namespace Jukebox_Assignment
             GenreListBox.Items.Clear();
             for (int t = 1; t < Genre[genre_displayed].Items.Count; t++)
             {
-                GenreListBox.Items.Add(Genre[genre_displayed].Items[t]);
+                GenreListBox.Items.Add(Genre[genre_displayed].Items[t]); // Displays the genre and items that come with it
             }
         }
 
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
-            display_genres(hScrollBar1.Value);
+            display_genres(hScrollBar1.Value); // Switches Between Genres
 
         }
 
@@ -92,7 +92,7 @@ namespace Jukebox_Assignment
         {
             if (GenreListBox.SelectedIndex > -1)  // Selects items within GenreListBox above 0.
 
-                PlaylistListBox.Items.Add(GenreListBox.Text);
+                PlaylistListBox.Items.Add(GenreListBox.Text);  // Copies Text In GenreListBox to PlaylistListBox
 
         }
 
@@ -103,3 +103,4 @@ namespace Jukebox_Assignment
     }
     
 }
+                 //        15 GITHUB SUBMISSIONS UPLOADED - WOODY91
