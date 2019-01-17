@@ -20,6 +20,8 @@ namespace Jukebox_Assignment
         {
             InitializeComponent();
         }
+        // Attempting to get Windows media Player to play file types.
+        string[] extensions = new[] {".mp3", ".wma", ".wav", ".MP3", ".WMA", "wma", "WMA", ".", "(.)", "()", ""};
 
         private void setupToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -40,12 +42,12 @@ namespace Jukebox_Assignment
 
         private void load_media()
         {
-            int num_gen;  //The number of genres in the text file.
-            int num_track;  //The number of tracks within the text file.
+            int num_gen;  // The number of genres in the text file.
+            int num_track;  // The number of tracks within the text file.
 
-            StreamReader myInputStream = File.OpenText(applicationPath + "Media.txt");  //Opens the text file to be read.
+            StreamReader myInputStream = File.OpenText(applicationPath + "Media.txt");  // Opens the text file to be read.
 
-            num_gen = Convert.ToInt32(myInputStream.ReadLine());  //this reads the number "3" from the text file and then converts it into an interger.  
+            num_gen = Convert.ToInt32(myInputStream.ReadLine());  // This reads the number "3" from the text file and then converts it into an integer.  
             hScrollBar1.Maximum = num_gen - 1;
             Genre = new ListBox[num_gen];       // Creates a new list box
 
@@ -85,9 +87,16 @@ namespace Jukebox_Assignment
 
         private void GenreListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            // Unused object. See Selecttrack below.
+            if (PlayNowTextBox.Text == "")
+            {
+                PlayNowTextBox.Text = GenreListBox.SelectedItem.ToString(); //Adds song to the Now Playing textbox
+                axWindowsMediaPlayer1.URL = @"Tracks";
+            }
+            else
+            {
+                PlaylistListBox.Items.Add(GenreListBox.SelectedItem);// Adds song to playlist queue
+            }
         }
-
         private void Selecttrack(object sender, EventArgs e)
         {
             if (GenreListBox.SelectedIndex > -1)  // Selects items within GenreListBox above 0.
@@ -96,10 +105,16 @@ namespace Jukebox_Assignment
 
         }
 
-        private void PlaylistListBox_SelectedIndexChanged(object sender, EventArgs e)
+        private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
+        {
+            string[] extensions = new[] { ".mp3", ".wma", ".wav", ".MP3", ".WMA", "wma", "WMA", ".", "(.)", "()", " ", };
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
         {
 
         }
+
     }
     
 }

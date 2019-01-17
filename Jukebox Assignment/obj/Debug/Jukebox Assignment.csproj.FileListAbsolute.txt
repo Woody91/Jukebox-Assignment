@@ -15,3 +15,20 @@
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.CoreCompileInputs.cache
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.exe
 \\studenthome.hallam.shu.ac.uk\STUDENTHOME5\5\b5018875\MyWork\GitHub\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.pdb
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.exe.config
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.exe
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.pdb
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Interop.WMPLib.dll
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\bin\Debug\AxInterop.WMPLib.dll
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csprojAssemblyReference.cache
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Interop.WMPLib.dll
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\AxInterop.WMPLib.dll
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.ResolveComReference.cache
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.About.resources
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Form1.resources
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Properties.Resources.resources
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Setup.resources
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.GenerateResource.cache
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.CoreCompileInputs.cache
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.exe
+F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.pdb
