@@ -32,3 +32,20 @@ F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\J
 F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.CoreCompileInputs.cache
 F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.exe
 F:\Users\Adam\Documents\1. Uni\Computing Year 1\Programming\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.pdb
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.exe.config
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.exe
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Jukebox Assignment.pdb
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\bin\Debug\Interop.WMPLib.dll
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\bin\Debug\AxInterop.WMPLib.dll
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csprojAssemblyReference.cache
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Interop.WMPLib.dll
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\AxInterop.WMPLib.dll
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.ResolveComReference.cache
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.About.resources
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Form1.resources
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Properties.Resources.resources
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox_Assignment.Setup.resources
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.GenerateResource.cache
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.csproj.CoreCompileInputs.cache
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.exe
+G:\Programming\VS C#\Jukebox-Assignment\Jukebox Assignment\obj\Debug\Jukebox Assignment.pdb

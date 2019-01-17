@@ -102,11 +102,11 @@ namespace Jukebox_Assignment
             if (GenreListBox.SelectedIndex > -1)  // Selects items within GenreListBox above 0.
 
                 PlaylistListBox.Items.Add(GenreListBox.Text);  // Copies Text In GenreListBox to PlaylistListBox
-
         }
 
         private void axWindowsMediaPlayer1_Enter(object sender, EventArgs e)
         {
+            // Attempting to get Windows media Player to play file types.
             string[] extensions = new[] { ".mp3", ".wma", ".wav", ".MP3", ".WMA", "wma", "WMA", ".", "(.)", "()", " ", };
         }
 
